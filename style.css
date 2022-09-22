@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    height: 100vh;
+    background-color: peachpuff;
+    
+}
+.container{
+    max-width: 1200px;
+    height: 90%;
+    margin: 6rem auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #93c572;
+    border-radius: 10px;
+}
+h1{
+    margin: 6rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* .form-container{
+    display: flex;
+    justify-content: center;
+} */
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form label{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.form textarea{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 50%;
+}
+.form input{
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: beige;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.error{
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+
+.task-container{
+    margin-top: 5rem;
+}
+.task-container h2{
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.item{
+    min-width: 250px;
+    list-style: none;
+    padding: 1rem;
+    background-color: #2d572c;
+    margin-bottom: 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.close{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
