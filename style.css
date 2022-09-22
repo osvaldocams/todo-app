@@ -15,7 +15,7 @@ body{
 }
 .container{
     max-width: 1200px;
-    height: 90%;
+    height: auto;
     margin: 6rem auto;
     width: 90%;
     display: flex;
@@ -40,6 +40,7 @@ h1{
 .form label{
     font-size: 2.5rem;
     text-transform: uppercase;
+    margin-bottom: 2rem;
 }
 .form textarea{
     padding: 20px;
@@ -56,6 +57,8 @@ h1{
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
 }
 .error{
     background-color: red;
@@ -83,6 +86,7 @@ h1{
     display: flex;
     justify-content: space-between;
 }
+
 .close{
     color: red;
     text-decoration: none;
